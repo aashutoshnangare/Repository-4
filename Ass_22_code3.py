@@ -1,4 +1,4 @@
-class Demo:
+class Arthimetic:
 
     def __init__(self):
         self.value1 = 0
@@ -34,8 +34,8 @@ class Demo:
             print("Division is :",self.Div)
 
     
-obj1 = Demo()
-obj2 = Demo()
+obj1 = Arithmetic()
+obj2 = Arithmetic()
 
 obj1.Accept()
 obj1.Addition()
@@ -50,4 +50,5 @@ obj2.Addition()
 obj2.Substraction()
 obj2.Multiplication()
 obj2.Division()
+
 
