@@ -1,4 +1,4 @@
-class Demo:
+class Circle:
     Pi = 3.14
 
     def __init__(self):
@@ -36,3 +36,4 @@ obj2.CalculateCircumference()
 
 obj1.Display()
 obj2.Display()
+
