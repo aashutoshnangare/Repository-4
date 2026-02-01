@@ -22,8 +22,8 @@ class Circle:
         print("The Area of circle is",self.Area)
         print("The Circumference of circle is",self.Circumference)
     
-obj1 = Demo()
-obj2 = Demo()
+obj1 = Circle()
+obj2 = Circle()
 
 obj1.Accept()
 obj2.Accept()
@@ -36,4 +36,5 @@ obj2.CalculateCircumference()
 
 obj1.Display()
 obj2.Display()
+
 
